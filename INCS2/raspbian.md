@@ -118,7 +118,8 @@ set(InferenceEngine_DIR /opt/intel/openvino/deployment_tools/inference_engine/sh
 按**Esc**鍵並打:wq退出並儲存文件  
 
 如果嫌以上步驟太麻煩因為是圖形化介面，直接從圖形化介面打開CmakeList.txt，就可以進入直接新增，因為剛剛把權限調整了，因此可以直接儲存檔案，不會有權限不足的問題。  
-![image][https://github.com/Soyuen/picture/blob/main/4.jpg]  
+![image](https://github.com/Soyuen/picture/blob/main/4.jpg)  
+
 完成之後就可以建立範例程式
 ```
 $ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-march=armv7-a" /opt/intel/openvino/deployment_tools/inference_engine/samples/cpp
