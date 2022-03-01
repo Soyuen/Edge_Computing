@@ -68,7 +68,7 @@ $ sudo apt install cmake
 $ echo "source /opt/intel/openvino/bin/setupvars.sh" >> ~/.bashrc
 ```
 如果顯示以下圖片，代表環境設置成功  
-![image](https://github.com/Soyuen/picture/blob/main/1.jpg)  
+![image](https://github.com/Soyuen/picture/blob/main/1.png)  
 
 ## 設置加速棒
 將目前使用者新增到users群組中
