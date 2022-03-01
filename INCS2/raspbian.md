@@ -68,7 +68,8 @@ $ sudo apt install cmake
 $ echo "source /opt/intel/openvino/bin/setupvars.sh" >> ~/.bashrc
 ```
 如果顯示以下圖片，代表環境設置成功  
-![image][https://github.com/Soyuen/picture/blob/main/1.jpg]  
+![image](https://github.com/Soyuen/picture/blob/main/1.jpg)  
+
 ## 設置加速棒
 將目前使用者新增到users群組中
 ```
@@ -100,14 +101,16 @@ $ sudo apt-get install vim
 cd /opt/intel/openvino_2021/deployment_tools/inference_engine/samples/cpp
 ```
 我們要設定InferenceEngine的資料夾，否則如果照著官網做會出現以下錯誤  
-![image][https://github.com/Soyuen/picture/blob/main/2.jpg]
+![image](https://github.com/Soyuen/picture/blob/main/2.jpg)  
+
 
 使用vim編輯器，打開CMakeLists.txt檔
 ```
 vim CMakeLists.txt
 ```
 會進入這樣子的一個畫面  
-![image][https://github.com/Soyuen/picture/blob/main/3.jpg]  
+![image](https://github.com/Soyuen/picture/blob/main/3.jpg)  
+
 按鍵盤i鍵進入編輯模式在project(Samples)下面打下這個程式碼
 ```
 set(InferenceEngine_DIR /opt/intel/openvino/deployment_tools/inference_engine/share)
@@ -121,7 +124,8 @@ set(InferenceEngine_DIR /opt/intel/openvino/deployment_tools/inference_engine/sh
 $ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-march=armv7-a" /opt/intel/openvino/deployment_tools/inference_engine/samples/cpp
 $ sudo make -j2 object_detection_sample_ssd
 ```
-![image](https://github.com/Soyuen/picture/blob/main/5.jpg)
+![image](https://github.com/Soyuen/picture/blob/main/5.jpg)  
+
 
 接下來可以下載官方網站提供的openzoo(就是各種模型的集大成)，並下載所需套件以及臉部偵測模型
 ```
