@@ -146,5 +146,5 @@ $ /opt/intel/openvino/deployment_tools/inference_engine/samples/cpp/armv7l/Relea
 這樣子就可以執行出openvino的範例程式了
 
 
-有任何問題歡迎提問，盡量回答
-持續更新中，如果有幫助的話請不吝嗇收藏，追蹤，開啟小鈴鐺~
+有任何問題歡迎提問，盡量回答  
+持續更新中
