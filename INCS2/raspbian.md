@@ -115,7 +115,7 @@ vim CMakeLists.txt
 ```
 set(InferenceEngine_DIR /opt/intel/openvino/deployment_tools/inference_engine/share)
 ```
-按**Esc**鍵並打__:wq__ 退出並儲存文件  
+按**Esc**鍵並打:wq退出並儲存文件  
 
 如果嫌以上步驟太麻煩因為是圖形化介面，直接從圖形化介面打開CmakeList.txt，就可以進入直接新增，因為剛剛把權限調整了，因此可以直接儲存檔案，不會有權限不足的問題。  
 ![image][https://github.com/Soyuen/picture/blob/main/4.jpg]  
