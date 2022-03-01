@@ -127,7 +127,7 @@ $ sudo make -j2 object_detection_sample_ssd
 ![image](https://github.com/Soyuen/picture/blob/main/5.jpg)  
 
 
-接下來可以下載官方網站提供的openzoo(就是各種模型的集大成)，並下載所需套件以及臉部偵測模型
+接下來可以下載官方網站提供的openzoo(就是各種模型的集大成)，並下載所需套件以及臉部偵測模型，第二行中如果前面下載的toolkit不是2021.4.2版請改成自己的版本，requirements位置可能也有所改變。
 ```
 $ cd /opt/intel/openvino
 $ git clone --depth 1 -b 2021.4.2 https://github.com/openvinotoolkit/open_model_zoo
@@ -135,5 +135,15 @@ $ cd open_model_zoo/tools/downloader
 $ python3 -m pip install -r requirements.in
 $ python3 downloader.py --name face-detection-adas-0001
 ```
+準備照片，這邊就不附照片了，照片位置不同的話，將照片改成自己存放的路徑  
 執行推論
 
+```
+$ /opt/intel/openvino/deployment_tools/inference_engine/samples/cpp/armv7l/Release/object_detection_sample_ssd -m /opt/intel/openvino/open_model_zoo/tools/downloader/intel/face-detection-adas-0001/FP16/face-detection-adas-0001.xml -d MYRIAD -i /home/pi/Downloads/image.jpeg
+```
+
+這樣子就可以執行出openvino的範例程式了
+
+
+有任何問題歡迎提問，盡量回答
+持續更新中，如果有幫助的話請不吝嗇收藏，追蹤，開啟小鈴鐺~
