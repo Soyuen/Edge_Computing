@@ -111,7 +111,7 @@ vim CMakeLists.txt
 會進入這樣子的一個畫面  
 ![image](https://github.com/Soyuen/picture/blob/main/3.jpg)  
 
-按鍵盤i鍵進入編輯模式在project(Samples)下面打下這個程式碼
+按鍵盤**i**鍵進入編輯模式在project(Samples)下面打下這個程式碼
 ```
 set(InferenceEngine_DIR /opt/intel/openvino/deployment_tools/inference_engine/share)
 ```
