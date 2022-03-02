@@ -34,7 +34,7 @@ $ cd Python-3.5.10
 ```
 給定權限
 ```
-$ chmod -R 777 ./configure
+$ sudo chmod -R 777 ./configure
 ```
 配置安裝的路徑並安裝
 ```
@@ -90,7 +90,7 @@ $ sudo mkdir build && cd build
 
 先給定openvino權限，後面改東西比較方便
 ```
-$ chmod -R 777 /opt/intel/openvino
+$ sudo chmod -R 777 /opt/intel/openvino
 ```
 若想要在**terminal**上變更檔案，建議使用vim編輯，首先先下載vim編輯器
 ```
