@@ -98,7 +98,7 @@ $ sudo apt-get install vim
 ```
 進入目的資料夾
 ```
-cd /opt/intel/openvino_2021/deployment_tools/inference_engine/samples/cpp
+cd /opt/intel/openvino/deployment_tools/inference_engine/samples/cpp
 ```
 我們要設定InferenceEngine的資料夾，否則如果照著官網做會出現以下錯誤  
 ![image](https://github.com/Soyuen/picture/blob/main/2.jpg)  
